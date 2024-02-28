@@ -9,7 +9,7 @@ const CartPage = () => {
   const renderCartItems = cartItems.map((item) => (
     <Fragment key={item.id}>
       <div className="flex space-x-7 mb-5 flex-col items-center md:flex-row">
-        <div className="md:w-[32rem] ">
+        <div className=" w-[250px] md:w-[600px] ">
           <img
             className="w-100"
             src={`${import.meta.env.VITE_SERVER_URL}${
@@ -41,7 +41,6 @@ const CartPage = () => {
           </div>
         </div>
       </div>
-      <hr />
     </Fragment>
   ));
   return (

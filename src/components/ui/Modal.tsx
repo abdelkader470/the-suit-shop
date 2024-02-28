@@ -51,7 +51,7 @@ const Modal = ({
                 <Dialog.Panel className="  flex flex-col md:flex-row xl:max-w-7xl md: w-[52rem]  transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
                   <div className="]  ">
                     {img && (
-                      <div className=" md:w-[24rem]">
+                      <div className=" md:w-[24rem] sm:w-[8rem]">
                         <img className="w-100" src={img} alt="" />
                       </div>
                     )}
